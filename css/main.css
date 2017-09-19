@@ -1,0 +1,172 @@
+/*CSS Reselt*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS Reselt end*/
+
+*{
+  border: 1px solid;
+  position: relative;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+/* Clearfix*/
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*Header*/
+.header {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  padding-left: 3em;
+  border-bottom: 1.5em solid #388E3C;
+  letter-spacing: 0.2em;
+}
+
+.header h1{
+  font-size: 5em;
+  margin-bottom: 0.1em;
+  margin-top: 0.2em;
+}
+
+.header p {
+  line-height: 1.4;
+  font-size: 1.4em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #388E3C;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+
+/*Main*/
+.main{
+  box-sizing: border-box;
+  margin-top: 0.5em;
+}
+
+.left, .right {
+  float: left;
+  width: 45%;
+  padding: 10px 30px;
+}
+
+.left {
+  margin-left: 2.5%;
+}
+/* left Content*/
+.left-title{
+  color: #388E3C;
+  font-size: 19px;
+  margin: 1em 0;
+  padding-bottom: 1em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-bottom: 2px solid rgb(237, 237, 255);
+}
+
+.right{
+  height: 100px;
+}
+
+/*Left Box*/
+.left-box {
+  height: 80px;
+}
+
+.col-time, .col-middle, .col-right {
+  float: left;
+}
+
+.left-box .col-time {
+  width: 30%;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: right;
+}
+
+.left-box .col-middle{
+  width: 5%;
+  border: 2px solid #388E3C;
+  width: 2px;
+  height: 80px;
+  margin: 0 1em;
+}
+
+.col-middle .circle {
+  width: 30%;
+  border: 2px solid #388E3C;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  background-color: #fff;
+}
+
+.col-right p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.education {
+  padding-bottom: 1.5em;
+  border-bottom: 2px solid rgb(237, 237, 255);
+}
